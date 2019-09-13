@@ -24,7 +24,6 @@ public class SliderActivity extends AppCompatActivity {
                 = findViewById(R.id.slider_adView);
 
         publiciteSliderAdsView.loadAds();
-
     }
 
 }

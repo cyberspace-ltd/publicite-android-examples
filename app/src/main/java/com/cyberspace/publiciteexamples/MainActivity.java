@@ -46,7 +46,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         bt_banner.setOnClickListener(v -> {
-
+            Intent slider_ad = new Intent(getApplicationContext(), BannerActivity.class);
+            startActivity(slider_ad);
         });
 
     }

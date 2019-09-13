@@ -8,4 +8,5 @@
     <string name="bt_slider">Slider Ads</string>
     <string name="bt_banner">Banner Ads</string>
     <string name="title_activity_slider">SliderActivity</string>
+    <string name="title_activity_banner">BannerActivity</string>
 </resources>
