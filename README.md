@@ -21,7 +21,7 @@ allprojects {
 #### Add the dependency
 ```
 dependencies {
-	       implementation 'com.github.cyberspace-ltd:publicite-sdk-android:0.3.4'
+	       implementation 'com.github.cyberspace-ltd:publicite-sdk-android:0.3.5'
 	}
 ```
 
