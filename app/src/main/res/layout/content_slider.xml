@@ -14,7 +14,7 @@
         android:id="@+id/slider_adView"
         app:contentType="RANDOM"
         app:refreshRateMs="10000"
-        app:adsToken="fpOtdSZU7KST3SyyenezshjVnmyVrHK8asUZBIls2T8%3D"
+        app:adsToken="Replace with your Publicite Ads token"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
