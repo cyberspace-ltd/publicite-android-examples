@@ -82,14 +82,14 @@ dependencies {
 ```
 
 ### FPage Ads
-#### **Step 1:** Create instance of PubliciteInterstitialAds
+#### **Step 1:** Create instance of PubliciteFPAds
 ```
 ...
 
-private PubliciteInterstitialAds publiciteAdsView;
+private PubliciteFPAds publiciteFPAds;
 
             ...
-            publiciteInterstitialAds= new PubliciteInterstitialAds(/*context*/this);
+            publiciteFPAds= new PubliciteFPAds(/*context*/this);
 
            
             ...
@@ -97,12 +97,12 @@ private PubliciteInterstitialAds publiciteAdsView;
     
 ```
 
-#### **Step 2** Initialise the PubliciteInterstitialAds object and call .loadAds, passing your **PUBLICITE ADS TOKEN** and a refresh rate in milli seconds
+#### **Step 2** Initialise the PubliciteFPAds object and call .loadAds, passing your **PUBLICITE ADS TOKEN** and a refresh rate in milli seconds
 
 ```
             ...
              /*Load Ads with refresh rate in milli seconds set to 50 seconds*/
-            publiciteInterstitialAds.loadAds(/*adstoken*/"fpOtdSZU7KST3SyyenezshjVnmyVrHK8asUZBIls2T8%3D",/*refreshRateMs*/50000);
+            publiciteFPAds.loadAds(/*adstoken*/"fpOtdSZU7KST3SyyenezshjVnmyVrHK8asUZBIls2T8%3D",/*refreshRateMs*/50000);
 
             ...
 
