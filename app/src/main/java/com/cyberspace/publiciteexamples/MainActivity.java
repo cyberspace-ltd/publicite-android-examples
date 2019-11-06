@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         bt_slider = findViewById(R.id.bt_slider);
 
         bt_full_page.setOnClickListener(v ->{
-            /* create a publicite full page Ads with 50s refresh rate */
-                new PubliciteFPAds(getApplicationContext(), "").loadAds("replace with Your Publicite Ads token", 50000);
+            /* create a publi  cite full page Ads with 50s refresh rate */
+                new PubliciteFPAds(getApplicationContext(), "").loadAds("fpOtdSZU7KST3SyyenezshjVnmyVrHK8asUZBIls2T8%3D", 50000);
         });
 
         bt_slider.setOnClickListener(v -> {
