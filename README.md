@@ -27,45 +27,16 @@ dependencies {
 
 ##	Usage
 ### Native Ads
-### Basic implementation
-#### Place the following code at any position in your layout/view file
-```
-...
 
-    <com.cyberspace.publicite.android.sdk.ui.PubliciteAdsView
-        android:id="@+id/nativeAdsView"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        app:contentType="IMAGE"
-        app:refreshRateMs="100000"
-        app:adsToken="YOUR PUBLICITE SPACE ID/TOKEN"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+![Publicite Native Ads](https://github.com/cyberspace-ltd/publicite-android-examples/raw/master/native_ads.png)
 
-        ...
-
-```
-
-#### Initialise PubliciteAdsView in your onCreate method of your Activity/Fragment
-```
-    private PubliciteAdsView publiciteAdsView;
-     @Override
-    protected void onCreate(Bundle savedInstanceState) 
-    {
-        ...
-        publiciteAdsView = findViewById(R.id.nativeAdsView);
-        publiciteAdsView.loadAds();
-
-    }
-
-```
-#### RecyclerView Example
-```
-
-```
+** See Example Folder **
 
 
 ### Banner Ads
+
+![Publicite Native Ads](https://github.com/cyberspace-ltd/publicite-android-examples/raw/master/banner_ads.png)
+
 #### Place PubliciteAdsView in a CoordinatorLayout layout
 ```
 <com.cyberspace.publicite.android.sdk.ui.PubliciteAdsView
@@ -81,7 +52,10 @@ dependencies {
 
 ```
 
-### FPage Ads
+### Full Page Ads
+
+![Publicite Native Ads](https://github.com/cyberspace-ltd/publicite-android-examples/raw/master/full_page_adsull.png)
+
 #### **Step 1:** Create instance of PubliciteFPAds
 ```
 ...
@@ -109,6 +83,9 @@ private PubliciteFPAds publiciteFPAds;
 
 ```
 ### Slider Ads
+
+![Publicite Native Ads](https://github.com/cyberspace-ltd/publicite-android-examples/raw/master/slider_ads.png)
+
 #### **Step 1** Add PubliciteSliderAdsView to anywhere in your layout as shown below.
 
 ```
