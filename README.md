@@ -54,7 +54,7 @@ dependencies {
 
 ### Full Page Ads
 
-![Publicite Native Ads](https://github.com/cyberspace-ltd/publicite-android-examples/raw/master/full_page_adsull.png)
+![Publicite Native Ads](https://github.com/cyberspace-ltd/publicite-android-examples/raw/master/full_page_ads.png)
 
 #### **Step 1:** Create instance of PubliciteFPAds
 ```
